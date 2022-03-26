@@ -1,2 +1,2 @@
-# letters-to-janka
-The love letters to Janka
+# letters-for-janka
+The love letters for Janka
