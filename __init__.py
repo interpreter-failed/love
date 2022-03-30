@@ -11,7 +11,18 @@ import datetime as dt
 __all__ = tuple(["hours_to_meeting"])
 
 
-def hours_to_meeting(finish: dt.date, start: dt.date = dt.datetime.now()):
+def encrypt_file(file) -> 'encrypted_file':
+    ...
+
+
+def decrypt_file(file) -> 'decrypted_file':
+    ...
+
+
+def hours_to_meeting(finish: dt.date, start: dt.date = dt.datetime.now()) -> float:
+    """
+    Calculate the number of hours to next meeting.
+    """
     return abs(finish - start).total_seconds() / 3600.0
 
 
@@ -28,6 +39,7 @@ def main() -> None:
         case _:
             print("Pick a date and time in the future e.g. '2022-03-28T21:30:00'")
             # raise Exception("Bad input.")
+
 
 if __name__ == "__main__":
     main()
