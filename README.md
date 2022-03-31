@@ -5,3 +5,7 @@
 ## 𝕷𝖊𝖙𝖙𝖊𝖗𝖘
 
 - &hellip;
+
+## Usage
+
+- Symmetric encryption uses a single private key for encryption and decryption.

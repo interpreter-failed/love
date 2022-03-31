@@ -1,2 +1,0 @@
-
-Příliš žluťoučký kůň úpěl ďábelské ódy.
