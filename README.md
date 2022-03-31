@@ -14,8 +14,8 @@
 
 ```
 love.meeting 2022-04-01T20:00:00
-love.letter --encrypt letters/letter-2022-04-01.md
-love.letter --decrypt letters/letter-2022-04-01.md
+love.letters --encrypt letters/letter-2022-04-01.md
+love.letters --decrypt letters/letter-2022-04-01.md
 ```
 
 &hellip;
