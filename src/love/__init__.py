@@ -81,7 +81,7 @@ def meeting_main() -> None:
         case 2: # one date
             finish = dt.datetime.fromisoformat(sys.argv[1])
             hours = hours_to_meeting(finish)
-            print(f"We will meet after {math.floor(hours)} hours.")
+            print(f"We will meet in {math.floor(hours)} hours.")
         case 3: # two dates
             print(sys.argv[1], sys.argv[2])
             # TODO
